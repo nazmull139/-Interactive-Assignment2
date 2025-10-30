@@ -1008,6 +1008,27 @@ html, body {
       margin-top: 20px; ;
       align-self: center;
     }
+    @media screen and (max-width: 768px) {
+      .banner-section {
+        
+        height: 50vh;
+      
+      }
+  
+  
+      .banner-section div {
+        
+        width: 100%;
+ 
+      }
+  
+      .banner-section div h2 {
+        font-size: 40px;
+  
+      }
+     
+    }
+
 
 
     /*  Banner section END  */
