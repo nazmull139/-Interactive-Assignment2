@@ -484,7 +484,7 @@ html, body {
   .benefit-section {
     
     
-   height: 90vh;
+   height: 120vh;
   }
  
 
@@ -651,7 +651,7 @@ html, body {
   @media screen and (max-width: 480px) {
     .star-section {
  
-      height: 90vh;
+      height:120vh;
       
     }
 
