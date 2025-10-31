@@ -1,5 +1,5 @@
 * {
-  
+     
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -78,7 +78,7 @@
     color: #06C167;
     
   }
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
      
     .hamburger {
       display: flex;
@@ -133,13 +133,12 @@
         padding: 10px 30px;
         display: flex;
         flex-direction: row;
-       
-        justify-content: space-between;
+       flex-wrap: wrap;
+      
         align-items: center;
         position: relative;
         gap: 20px;
-      
-         
+    
     }
   
 
@@ -175,6 +174,7 @@
         padding: 15px 30px;
         margin-top: 20px; ;
     } 
+     
 
 
   
@@ -196,8 +196,8 @@
     }
     .hero-image .hero-img-four {
         position: absolute;
-        left: 81%;
-        top: 90%;
+        left: 85%;
+        top: 97%;
     }
 
     .company-logo {
@@ -212,7 +212,7 @@
     }
 
     
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     
       .hero-section {
        
@@ -298,7 +298,7 @@ html, body {
          justify-content: center;
          align-items: center;
          gap: 10px;
-         
+        
     }
 
     .features-text {
@@ -321,7 +321,7 @@ html, body {
          
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 992px) {
       .features-section {
  
         flex-wrap: wrap;
@@ -430,13 +430,13 @@ html, body {
     z-index: -1;
      
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .benefit-section {
     
     flex-direction: column;
     height: 110vh;
     gap: 10px;
-    justify-content: start;
+    justify-content: space-between;
   }
 
   .benefit-image  {
@@ -474,7 +474,7 @@ html, body {
 @media screen and (max-width: 480px) {
   .benefit-section {
     
-    
+    justify-content: start;
    height: 120vh;
   }
  
@@ -584,7 +584,7 @@ html, body {
     z-index: -1;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .star-section {
       
      
@@ -755,7 +755,7 @@ html, body {
     width: 60%;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .vaggie-section {
       
        height: auto;
@@ -917,7 +917,7 @@ html, body {
 
   /*  product section Responsive */
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .product-section {
       width: 80%;
       margin: 130px auto;
@@ -1008,6 +1008,7 @@ html, body {
       margin-top: 20px; ;
       align-self: center;
     }
+
     @media screen and (max-width: 768px) {
       .banner-section {
         
@@ -1028,7 +1029,6 @@ html, body {
       }
      
     }
-
 
 
     /*  Banner section END  */
